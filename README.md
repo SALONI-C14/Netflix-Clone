@@ -16,15 +16,19 @@ A responsive Netflix-inspired landing page built using **HTML**, **CSS**, and **
 - CSS3
 - JavaScript
 
-## 📸 Screenshot
-## 📸 Preview
+## 📸 Screenshots
 
+### 🏠 Homepage
 ![Homepage](screenshots/home.png)
-![Trendingpage](screenshots/trending.png)
-![Toppage](screenshots/top.png)
-![FAQpage](screenshots/faq.png)
 
+### 🎬 Trending Movies
+![Trending](screenshots/trending.png)
 
+### ⭐ Top Picks
+![Top](screenshots/top.png)
+
+### ❓ FAQ Section
+![FAQ](screenshots/faq.png)
 
 
 Cloned by :
