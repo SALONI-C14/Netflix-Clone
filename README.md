@@ -17,6 +17,9 @@ A responsive Netflix-inspired landing page built using **HTML**, **CSS**, and **
 - JavaScript
 
 ## 📸 Screenshot
+## 📸 Preview
+
+![Homepage](screenshots/home.png)
 
 
 
