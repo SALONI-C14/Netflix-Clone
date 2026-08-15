@@ -22,7 +22,7 @@
                 <div class="nav-links"><a class="active" href="#home">Home</a><a href="#trending">Trending</a><a href="#faq">FAQ</a></div>
                 <div class="button_in">
                     <button class="button_in1" type="button" title="Language selector"><img src="pdf/img/lang.svg" alt="" aria-hidden="true">English</button>
-                    <button class="button_in2" type="button" onclick="alert('This is a demo portfolio project. Sign in is not functional.'); return false;" title="Demo only">Sign in (Demo)</button>
+                    <button class="button_in2" type="button" onclick="document.querySelector('#trending').scrollIntoView({behavior: 'smooth'}); return false;" title="View the demo project">Demo</button>
                 </div>
             </nav>
             <div class="box"></div>
@@ -33,11 +33,7 @@
                 <p class="third">Explore this Netflix-inspired UI demonstration. No account required.</p>
 
             </div>
-            <form class="email hero-email" action="#" novalidate onsubmit="return false;">
-                <label class="sr-only" for="hero-email">Email address (demo only)</label>
-                <input type="email" id="hero-email" name="email" placeholder="Email address (demo only)" autocomplete="off">
-                <button class="get_started_button" type="button" onclick="alert('This is a demo portfolio project. No account is needed to explore the UI.'); return false;">Get Started <span class="icon" aria-hidden="true">&#8250;</span></button>
-            </form>
+            <button class="get_started_button" type="button" onclick="document.querySelector('#trending').scrollIntoView({behavior: 'smooth'}); return false;">View Trending Titles <span class="icon" aria-hidden="true">&#8250;</span></button>
         </div>
     </header>
     <main>
@@ -126,15 +122,6 @@
                 <article class="faq-item"><button class="faq_box" type="button" aria-expanded="false">How do I cancel?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer"><p>There are no contracts. You can cancel online whenever you like.</p></div></article>
                 <article class="faq-item"><button class="faq_box" type="button" aria-expanded="false">What can I watch on Netflix?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer"><p>Explore a broad library of films, series, anime and Netflix originals.</p></div></article>
                 <article class="faq-item"><button class="faq_box" type="button" aria-expanded="false">Is Netflix good for kids?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer"><p>Netflix Kids offers family-friendly entertainment and parental controls.</p></div></article>
-
-                <div id="email">
-                    <div class="create">Demo Only — Explore the Netflix-inspired UI.</div>
-                    <form class="email email2" action="#" novalidate onsubmit="return false;">
-                        <label class="sr-only" for="footer-email">Email address (demo only)</label>
-                        <input type="email" id="footer-email" name="email" placeholder="Email address (demo only)" autocomplete="off">
-                        <button class="get_started_button" type="button" onclick="alert('This is a demo. No account creation is possible.'); return false;">Get Started <span class="icon" aria-hidden="true">&#8250;</span></button>
-                    </form>
-                </div>
             </section>
             </section>
         </div>
@@ -143,7 +130,7 @@
         <div class="footer">
             <p class="contact">Questions? Call <a href="tel:0008009191743">000-800-919-1743</a></p>
             <div class="grid">
-                <a href="#faq">FAQ</a><a href="#home">Help Centre</a><a href="#home">Account</a><a href="#home">Media Centre</a>
+                <a href="#faq">FAQ</a><a href="#home">Help Centre</a><a href="#home">Media Centre</a>
                 <a href="#home">Investor Relations</a><a href="#home">Jobs</a><a href="#trending">Ways to Watch</a><a href="#home">Terms of Use</a>
                 <a href="#home">Privacy</a><a href="#home">Cookie Preferences</a><a href="#home">Corporate Information</a><a href="#home">Contact Us</a>
 
