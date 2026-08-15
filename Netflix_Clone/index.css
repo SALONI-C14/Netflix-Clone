@@ -24,8 +24,12 @@ img { display: block; max-width: 100%; }
 .loading-screen img { width: 150px; }
 .loading-screen.is-hidden { opacity: 0; visibility: hidden; }
 
+.demo-banner { position: fixed; top: 0; left: 0; right: 0; z-index: 999; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-bottom: 2px solid #e50914; padding: 12px 24px; text-align: center; font-size: 0.9rem; }
+.demo-banner-text { margin: 0; color: #f5f5f1; line-height: 1.4; }
+.demo-banner-text strong { color: #e50914; font-weight: 700; }
+
 .hero, .bg { min-height: min(760px, 100vh); }
-.bg { position: relative; display: grid; place-items: center; padding: 124px 24px 94px; background: url("pdf/img/background.jpg") center top / cover no-repeat; isolation: isolate; }
+.bg { position: relative; display: grid; place-items: center; padding: 124px 24px 94px; background: url("pdf/img/background.jpg") center top / cover no-repeat; isolation: isolate; margin-top: 48px; }
 .box { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(0, 0, 0, .82), rgba(0, 0, 0, .36) 58%, rgba(0, 0, 0, .7)), linear-gradient(0deg, #080808 0%, transparent 32%); }
 
 .navbar { position: fixed; top: 0; left: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; width: 100%; height: 76px; padding: 0 max(24px, calc((100% - 1120px) / 2)); transition: background-color .3s ease, box-shadow .3s ease, height .3s ease; }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix India | Watch TV Shows Online</title>
+    <title>Netflix UI Clone — Saloni Choudhary</title>
     <link rel="stylesheet" href="index.css">
     <script src="script.js" defer></script>
 
@@ -12,28 +12,31 @@
 
 <body>
     <div class="loading-screen" aria-hidden="true"><img src="pdf/img/logo.svg" alt=""></div>
+    <div class="demo-banner" role="banner">
+        <p class="demo-banner-text"><strong>Netflix UI Clone — Portfolio Project</strong><br>Not affiliated with Netflix. UI demonstration only.</p>
+    </div>
     <header class="hero" id="home">
         <div class="bg">
             <nav class="navbar" aria-label="Primary navigation">
                 <a class="brand" href="#home" aria-label="Netflix home"><img src="pdf/img/logo.svg" alt="Netflix"></a>
                 <div class="nav-links"><a class="active" href="#home">Home</a><a href="#trending">Trending</a><a href="#faq">FAQ</a></div>
                 <div class="button_in">
-                    <button class="button_in1" type="button"><img src="pdf/img/lang.svg" alt="" aria-hidden="true">English</button>
-                    <button class="button_in2" type="button">Sign in</button>
+                    <button class="button_in1" type="button" title="Language selector"><img src="pdf/img/lang.svg" alt="" aria-hidden="true">English</button>
+                    <button class="button_in2" type="button" onclick="alert('This is a demo portfolio project. Sign in is not functional.'); return false;" title="Demo only">Sign in (Demo)</button>
                 </div>
             </nav>
             <div class="box"></div>
             <div class="membership reveal">
                 <p class="eyebrow">Stories for every mood</p>
                 <h1 class="first">Your next favourite story is waiting.</h1>
-                <span class="second">Starts at ₹149. Cancel at any time.</span>
-                <p class="third">Ready to watch? Enter your email to create or restart your membership.</p>
+                <span class="second">Netflix-inspired UI Portfolio Demo</span>
+                <p class="third">Explore this Netflix-inspired UI demonstration. No account required.</p>
 
             </div>
-            <form class="email hero-email" action="#" novalidate>
-                <label class="sr-only" for="hero-email">Email address</label>
-                <input type="email" id="hero-email" name="email" placeholder="Email address" autocomplete="email">
-                <button class="get_started_button" type="submit">Get Started <span class="icon" aria-hidden="true">&#8250;</span></button>
+            <form class="email hero-email" action="#" novalidate onsubmit="return false;">
+                <label class="sr-only" for="hero-email">Email address (demo only)</label>
+                <input type="email" id="hero-email" name="email" placeholder="Email address (demo only)" autocomplete="off">
+                <button class="get_started_button" type="button" onclick="alert('This is a demo portfolio project. No account is needed to explore the UI.'); return false;">Get Started <span class="icon" aria-hidden="true">&#8250;</span></button>
             </form>
         </div>
     </header>
@@ -125,11 +128,11 @@
                 <article class="faq-item"><button class="faq_box" type="button" aria-expanded="false">Is Netflix good for kids?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer"><p>Netflix Kids offers family-friendly entertainment and parental controls.</p></div></article>
 
                 <div id="email">
-                    <div class="create">Ready to watch? Enter your email to create or restart your membership.</div>
-                    <form class="email email2" action="#" novalidate>
-                        <label class="sr-only" for="footer-email">Email address</label>
-                        <input type="email" id="footer-email" name="email" placeholder="Email address" autocomplete="email">
-                        <button class="get_started_button" type="submit">Get Started <span class="icon" aria-hidden="true">&#8250;</span></button>
+                    <div class="create">Demo Only — Explore the Netflix-inspired UI.</div>
+                    <form class="email email2" action="#" novalidate onsubmit="return false;">
+                        <label class="sr-only" for="footer-email">Email address (demo only)</label>
+                        <input type="email" id="footer-email" name="email" placeholder="Email address (demo only)" autocomplete="off">
+                        <button class="get_started_button" type="button" onclick="alert('This is a demo. No account creation is possible.'); return false;">Get Started <span class="icon" aria-hidden="true">&#8250;</span></button>
                     </form>
                 </div>
             </section>
@@ -147,9 +150,9 @@
             </div>
             <section class="footer_section">
                 <button class="eng_button" type="button"><img src="pdf/img/lang.svg" alt="" aria-hidden="true">English</button>
-                <div class="social-links" aria-label="Social links"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="mailto:hello@example.com">Contact</a></div>
-                <p class="end_text1">Netflix India</p>
-                <p class="end_text2">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#home">Learn more.</a></p>
+                <div class="social-links" aria-label="Social links"><a href="#home" title="This is a demo project">GitHub</a><a href="#home" title="This is a demo project">LinkedIn</a><a href="#home" title="This is a demo project">Contact</a></div>
+                <p class="end_text1">Netflix UI Clone — Portfolio Project</p>
+                <p class="end_text2">This is a portfolio project. <a href="#home">Learn more about this demo.</a></p>
             </section>
             
             
