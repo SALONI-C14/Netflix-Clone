@@ -88,7 +88,10 @@ img { display: block; max-width: 100%; }
 
 .all_bg { padding-top: 32px; }
 .join_box { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+<<<<<<< HEAD
 .boxdiv { display: none; }
+=======
+>>>>>>> 87979db2fc44d2245f196e7ff79806dbb8d407a6
 .boxes { min-height: 190px; padding: 22px 18px; background: linear-gradient(145deg, #192247, #261018); border: 1px solid rgba(255, 255, 255, .06); border-radius: 12px; transition: transform .25s var(--ease), border-color .25s ease; }
 .boxes:hover { border-color: rgba(255, 255, 255, .22); transform: translateY(-5px); }
 .join_text { margin-bottom: 12px; font-size: 1.04rem; font-weight: 750; line-height: 1.25; }
